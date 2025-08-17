@@ -1,0 +1,8 @@
+echo "=====&3Build - %project.name%&r====="
+import shulker.magick
+makeCopy .*\.psd
+pbrEx
+psdCvt
+makePkg
+makeCleanup
+echo "&aBUILD SUCCEED!"
