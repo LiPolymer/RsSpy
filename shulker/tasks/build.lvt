@@ -3,6 +3,7 @@ import shulker.magick
 makeCopy .*\.psd
 pbrEx
 psdCvt
+copy LICENSE %project.cache%/LICENSE
 makePkg
 makeCleanup
 echo "&aBUILD SUCCEED!"
