@@ -1,8 +1,10 @@
 run settings.lvt
 import shulker.magick
-makeCopy .*\.psd
+makeCopy \.(?:psd|aseprite)$
 pbrEx
 psdCvt
+import shulker.ase
+ase %project.src% %project.cache%
 delete ^targetPath^
 copy %project.cache% ^targetPath^
 makeCleanup

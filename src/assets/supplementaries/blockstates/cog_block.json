@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "power=0": {
+      "model": "supplementaries:block/cog_block_off"
+    },
+    "power=1": {
+      "model": "supplementaries:block/cog_block_semi_on"
+    },
+	"power=2": {
+      "model": "supplementaries:block/cog_block_on_2"
+    },
+    "power=3": {
+      "model": "supplementaries:block/cog_block_on_3"
+    },
+    "power=4": {
+      "model": "supplementaries:block/cog_block_on_4"
+    },
+    "power=5": {
+      "model": "supplementaries:block/cog_block_on_5"
+    },
+    "power=6": {
+      "model": "supplementaries:block/cog_block_on_6"
+    },
+    "power=7": {
+      "model": "supplementaries:block/cog_block_on_7"
+    },
+    "power=8": {
+      "model": "supplementaries:block/cog_block_on_8"
+    },
+    "power=9": {
+      "model": "supplementaries:block/cog_block_on_9"
+    },
+    "power=10": {
+      "model": "supplementaries:block/cog_block_on_10"
+    },
+    "power=11": {
+      "model": "supplementaries:block/cog_block_on_11"
+    },
+    "power=12": {
+      "model": "supplementaries:block/cog_block_on_12"
+    },
+    "power=13": {
+      "model": "supplementaries:block/cog_block_on_13"
+    },
+    "power=14": {
+      "model": "supplementaries:block/cog_block_on_14"
+    },
+    "power=15": {
+      "model": "supplementaries:block/cog_block_on_15"
+    }
+  }
+}
