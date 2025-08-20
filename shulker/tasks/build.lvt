@@ -4,6 +4,8 @@ makeCopy .*\.psd
 pbrEx
 psdCvt
 copy LICENSE %project.cache%/LICENSE
+import shulker.ase
+ase %project.src% %project.cache%
 makePkg
 makeCleanup
 echo "&aBUILD SUCCEED!"
