@@ -15,7 +15,7 @@ ShulkerRDK 是一个命令行工具, 用于简化MC低代码内容的开发
 如果您想对本项目进行贡献, 请先执行以下步骤:
 
 0. 确保您同意将您的贡献内容在 CC-BY-NC-SA 协议下与本项目一同分发
-1. 新增一个 MC 实例, 安装您想要 修改/适配 的 Mod 和 ShulkerRDK *(Neo)Forge 平台请使用Connector加载*
+1. 新增一个 MC 实例, 安装您想要 修改/适配 的 Mod 和 ShulkerRRT *(Neo)Forge 平台请使用Connector加载*
 2. 使用您的 MC 实例的游戏目录的绝对路径替换 `shulker/tasks/settings.lvt` 内的 `X:\Path\To\Your\Game`
 3. 导出您的 MC 实例的启动脚本为 `client.ps1`, 放置于 `shulker/local/` 文件夹内 (没有的话请新建对应的文件夹)
 4. 双击 `srdk.exe` 或在终端内执行 `./srdk` *(Windows下务必使用PowerShell)* 进入交互模式
